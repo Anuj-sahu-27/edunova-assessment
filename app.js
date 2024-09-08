@@ -8,7 +8,7 @@ const app = express();
 // Middleware to parse JSON
 app.use(express.json());
 
-// Connect to MongoDB using Mongoose
+// Connect to MongoDB using Mongoose 
 mongoose.connect(process.env.MONGODB_URI,{
     dbName:"library"
 })
